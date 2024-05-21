@@ -24,15 +24,15 @@ body {
 }
 
 .nav-links {
-  transition: background 0.2s ease-in-out;
+  transition: background 0.1s ease-in-out;
   cursor: pointer;
   &-angels {
-    &:hover {
-      svg {
-        path {
-          fill: white !important;
-          stroke: none !important;
-        }
+    background: #43c4b2;
+    color: white !important;
+    svg {
+      path {
+        fill: white !important;
+        stroke: none !important;
       }
     }
   }
