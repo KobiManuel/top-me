@@ -12,7 +12,7 @@ import File from "../assets/file-folder.svg?react";
 
 const Angels = () => {
   return (
-    <section className="bg-white rounded-[16px] ml-[7px] mt-6 font-poppins text-black flex flex-col justify-center items-center w-full">
+    <section className="min-h-[100vh] bg-white rounded-[16px] ml-[7px] mt-6 font-poppins text-black flex flex-col items-center w-full">
       <div className="flex flex-col gap-3 items-center py-6 w-[60%]">
         <div className="flex flex-col justify-center items-center gap-[10px] w-fit">
           <img
