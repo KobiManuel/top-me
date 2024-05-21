@@ -82,13 +82,13 @@ const Angels = () => {
       </div>
       <div className="flex flex-col py-6 items-center w-[70%] gap-6">
         <div className=" btn-container w-full flex justify-between items-center gap-[44px] py-6 ">
-          <button className=" py-[17.5px] rounded-lg border-2 border-solid border-black text-sm 2xl:text-2xl font-medium text-black w-1/3 uppercase">
+          <button className="h-[56px]  py-[17.5px] rounded-lg border-2 border-solid border-black text-sm 2xl:text-2xl font-medium text-black w-1/3 uppercase">
             Suspend
           </button>
-          <button className=" py-[17.5px] rounded-lg bg-[#FF6B6B] text-sm 2xl:text-2xl font-medium text-white w-1/3 uppercase">
+          <button className="h-[56px]  py-[17.5px] rounded-lg bg-[#FF6B6B] text-sm 2xl:text-2xl font-medium text-white w-1/3 uppercase">
             Reject
           </button>
-          <button className="relative py-[17.5px] rounded-lg border-2 border-solid border-black text-sm 2xl:text-2xl font-medium text-black w-1/3 uppercase flex items-center justify-center gap-[52px]">
+          <button className="h-[56px] relative py-[17.5px] rounded-lg border-2 border-solid border-black text-sm 2xl:text-2xl font-medium text-black w-1/3 uppercase flex items-center justify-center gap-[52px]">
             <Messages className="absolute top-1/2 left-6 -translate-y-1/2" />{" "}
             Message
           </button>
