@@ -1,14 +1,19 @@
 body {
   background: #f6f6f6;
+  padding: 16px;
 }
 
-.App {
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none; /* Internet Explorer and Edge
+* {
+  scrollbar-width: none !important; /* Firefox */
+  -ms-overflow-style: none !important; /* Internet Explorer and Edge
    */
+  &::-webkit-scrollbar {
+    display: none !important; /* Chrome, Safari, and Opera */
+  }
 }
-.App::-webkit-scrollbar {
-  display: none; /* Chrome, Safari, and Opera */
+
+.header {
+  width: calc(100% - 301px);
 }
 
 .nav-links {
