@@ -7,7 +7,7 @@ import avatar from "../assets/navbar-avatar.png";
 const Header = () => {
   return (
     <nav
-      className="header fixed top-4 left-[calc(100% - 269px)] font-poppins  flex justify-between items-center rounded-[12px] border-b-2 border-solid border-[
+      className="header h-[60px] fixed top-4 left-[calc(100% - 269px)] font-poppins  flex justify-between items-center rounded-[12px] border-b-2 border-solid border-[
 #F6F6F6] py-[6px] px-6 bg-white"
     >
       <div className="flex items-center gap-6">
@@ -25,7 +25,7 @@ const Header = () => {
           <Search />
         </div>
         <div className="flex gap-3 items-center">
-          <img src={avatar} alt="/" className="w-[51px] h-[51px]" />
+          <img src={avatar} alt="/" className="w-[43px] h-[43px]" />
           <span className="flex flex-col text-black mr-2">
             <p className=" text-xl font-semibold">Andre U.</p>
             <p className="font-medium text-base -mt-2">uandre@gmail.com</p>
