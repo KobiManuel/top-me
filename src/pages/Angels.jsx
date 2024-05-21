@@ -81,7 +81,7 @@ const Angels = () => {
         </div>
       </div>
       <div className="flex flex-col py-6 items-center w-[70%] gap-6">
-        <div className="w-full flex justify-between items-center gap-[44px] border-t border-solid border-b border-[#F0F0F0] py-6 ">
+        <div className=" btn-container w-full flex justify-between items-center gap-[44px] py-6 ">
           <button className=" py-[17.5px] rounded-lg border-2 border-solid border-black text-sm 2xl:text-2xl font-medium text-black w-1/3 uppercase">
             Suspend
           </button>
