@@ -7,7 +7,7 @@ const Layout = () => {
   return (
     <main>
       <Sidebar />
-      <div className="main-content w-[calc(100% - 269px)] ml-[276px] bg-white rounded-[16px] overflow-y-auto flex flex-col items-center py-6">
+      <div className="main-content w-[calc(100% - 269px)] ml-[269px]  overflow-y-auto flex flex-col items-center">
         <Header />
         <Angels />
       </div>

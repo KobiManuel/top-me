@@ -2,23 +2,25 @@ body {
   background: #f6f6f6;
   padding: 16px;
 }
-
 * {
-  scrollbar-width: none !important; /* Firefox */
-  -ms-overflow-style: none !important; /* Internet Explorer and Edge
-   */
-  &::-webkit-scrollbar {
-    display: none !important; /* Chrome, Safari, and Opera */
-  }
+  overflow-x: hidden !important;
 }
 
-.header {
-  width: calc(100% - 301px);
-}
+// * {
+//   scrollbar-width: none !important; /* Firefox */
+//   -ms-overflow-style: none !important; /* Internet Explorer and Edge
+//    */
+//   &::-webkit-scrollbar {
+//     display: none !important; /* Chrome, Safari, and Opera */
+//   }
+// }
+
+// .header {
+//   width: calc(100% - 301px);
+// }
 
 .main-content {
-  height: calc(100vh - 116px);
-  margin-top: 84px;
+  height: fit-content;
 }
 
 .nav-links {

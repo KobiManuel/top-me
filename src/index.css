@@ -9,7 +9,23 @@
   box-sizing: border-box;
 }
 
-:root {
-  --primary: #ef5000;
-  --secondary: #262626;
+::-moz-selection {
+  /* Code for Firefox */
+  color: #000000;
+  background: rgba(0, 186, 128, 0.3);
+}
+
+::selection {
+  color: #000000;
+  background: rgba(0, 186, 128, 0.3);
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  background: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 186, 128, 0.5);
+  border-radius: 5px;
 }
