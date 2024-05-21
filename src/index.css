@@ -20,7 +20,7 @@
   background: rgba(0, 186, 128, 0.3);
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   width: 5px;
   background: #ffffff;
 }
@@ -28,4 +28,4 @@
 ::-webkit-scrollbar-thumb {
   background: rgba(0, 186, 128, 0.5);
   border-radius: 5px;
-}
+} */
