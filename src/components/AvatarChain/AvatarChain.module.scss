@@ -1,0 +1,48 @@
+.avatar-chain {
+  position: relative;
+  width: max-content;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+}
+.others {
+  font-size: 6px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 14px;
+  height: 14px;
+  border-radius: 14px;
+  background-color: #43c4b2;
+  margin-left: -6px;
+}
+.images {
+  width: 16px;
+  min-width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  // border-radius: 50px;
+  // object-fit: cover;
+  &:nth-child(2) {
+    margin-left: -6px;
+  }
+  &:nth-child(3) {
+    margin-left: -6px;
+  }
+  &:nth-child(4) {
+    margin-left: -6px;
+  }
+}
+
+@media screen and (max-width: 455px) {
+  .avatar-chain {
+    height: 24px;
+    .images,
+    .others {
+      width: 24px;
+      height: 24px;
+      border-radius: 24px;
+    }
+  }
+}
